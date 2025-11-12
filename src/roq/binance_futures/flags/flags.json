@@ -1,0 +1,26 @@
+{
+  "name": "roq/binance_futures/flags/Flags",
+  "type": "flags",
+  "values": [
+    {
+      "name": "exchange",
+      "type": "std/string",
+      "required": true,
+      "default": "binance-futures",
+      "description": "Exchange identifier"
+    },
+    {
+      "name": "api",
+      "type": "std/string",
+      "required": true,
+      "default": "fapi",
+      "description": "API (:code:`fapi` or :code:`dapi`)"
+    },
+    {
+      "name": "ws_api",
+      "type": "std/bool",
+      "default": false,
+      "description": "Use WebSocket API?"
+    }
+  ]
+}
